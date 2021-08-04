@@ -1,4 +1,4 @@
-# COVID_19 新冠病毒数据爬虫项目
+# COVID_19 新冠病毒实时数据-爬虫项目(Golang)
 - 数据来源：
   - 百度新型冠状病毒肺炎 疫情实时大数据报告 
   - https://voice.baidu.com/act/newpneumonia/newpneumonia/
