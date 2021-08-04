@@ -1,0 +1,15 @@
+# COVID_19 新冠病毒数据爬虫项目
+- 数据来源：
+  - 百度新型冠状病毒肺炎 疫情实时大数据报告 
+  - https://voice.baidu.com/act/newpneumonia/newpneumonia/
+- 功能：
+  - 爬取疫情相关信息
+  - 生成json文件 
+  - 自动日志文件
+- TODO
+  - [ ] 定时执行任务
+  - [ ] 引入TOML配置文件
+  - [ ] Gin WebApi服务
+  - [ ] 前端页面开发
+  - [ ] 信息自动推送到邮箱
+  - [ ] Docker环境镜像
