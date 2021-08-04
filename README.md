@@ -1,4 +1,7 @@
 # COVID_19 新冠病毒实时数据-爬虫项目(Golang)
+- 适用场景：
+  - 局域网内网场景（局域网内无法访问广域网，采用服务器获取外网信息，内网终端访问此服务以获取信息）
+  - 练习（包括net/http库的操作方法，log的操作，io的读写操作，gin框架的使用等）
 - 数据来源：
   - 百度新型冠状病毒肺炎 疫情实时大数据报告 
   - https://voice.baidu.com/act/newpneumonia/newpneumonia/
