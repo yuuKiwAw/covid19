@@ -1,4 +1,4 @@
-package main
+package covid19
 
 import (
 	"io"
@@ -89,6 +89,20 @@ func selection_result(htmlDom string) string {
 	return outValue
 }
 
+func GetCovid19info() {
+	html_filePath := "./html/bdcovid19.html"
+	save_jsonPath := "./data/covid19info_selected_all.json"
+
+	// 获取response并且保存到本地html
+	covid19info := bdcovid19_response()
+	savelocal(covid19info, html_filePath)
+
+	// 解析获取到的信息
+	htmlDom := readlocal(html_filePath)
+	covid19info_selected_all := selection_result(htmlDom)
+	savelocal(covid19info_selected_all, save_jsonPath)
+}
+
 func init() {
 	log_infoPath := "./log/logs.log"
 
@@ -106,18 +120,4 @@ func init() {
 
 	log.SetOutput(fileAndStdoutWriter)
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
-}
-
-func main() {
-	html_filePath := "./html/bdcovid19.html"
-	save_jsonPath := "./data/covid19info_selected_all.json"
-
-	// 获取response并且保存到本地html
-	// covid19info := bdcovid19_respose()
-	// savelocal(covid19info, html_filePath)
-
-	// 解析获取到的信息
-	htmlDom := readlocal(html_filePath)
-	covid19info_selected_all := selection_result(htmlDom)
-	savelocal(covid19info_selected_all, save_jsonPath)
 }

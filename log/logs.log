@@ -1,8 +1,9 @@
-2021/08/04 07:51:07 covid19.go:87: selection info success
-2021/08/04 07:51:07 covid19.go:46: save file success
-2021/08/04 07:59:40 covid19.go:87: selection info success
-2021/08/04 07:59:41 covid19.go:46: save file success
-2021/08/04 08:00:29 covid19.go:87: selection info success
-2021/08/04 08:00:29 covid19.go:46: save file success
-2021/08/04 16:02:23 covid19.go:87: selection info success
-2021/08/04 16:02:23 covid19.go:46: save file success
+2021/08/05 13:44:26 covid19.go:34: get baidu_covid19 success
+2021/08/05 13:44:26 covid19.go:46: save file success
+2021/08/05 13:44:26 covid19.go:87: selection info success
+2021/08/05 13:44:26 covid19.go:46: save file success
+2021/08/05 13:44:26 cronjob.go:29: Start CronJob get covid19 info
+2021/08/05 14:00:00 covid19.go:34: get baidu_covid19 success
+2021/08/05 14:00:00 covid19.go:46: save file success
+2021/08/05 14:00:00 covid19.go:87: selection info success
+2021/08/05 14:00:00 covid19.go:46: save file success
